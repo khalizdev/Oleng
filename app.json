@@ -12,19 +12,22 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/ebe26dc5-1023-417b-89e8-ffd51871bfe8"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.khalizdev.oleng"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.khalizdev.oleng"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -34,6 +37,9 @@
         "projectId": "ebe26dc5-1023-417b-89e8-ffd51871bfe8"
       }
     },
-    "owner": "khalizdev"
+    "owner": "khalizdev",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
   }
 }
